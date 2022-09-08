@@ -368,3 +368,70 @@ body > footer > div.logoimg > img{
 }
 
 
+
+ 
+@media screen and  (max-width:480px)  {
+    .navbar>.menu-list{
+        display: none;
+    }
+
+    .section-a{
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .section-a>.personimg>img{
+        margin-left: 0px;
+        height: 400px;
+        margin-bottom: 0px;
+    }
+    .heading-1{
+        /* margin-left: 250px; */
+        margin: 50px;
+        padding-bottom: 50px;
+    }
+    .heading-1>p{
+        margin-right: 0px;
+
+    }
+    .heading-1>h4{
+        margin-top:20px;
+    }
+    
+    .cards-area{
+        display: flex;
+        flex-wrap: wrap;
+        padding: 0px;
+        margin:0px;
+    }
+    body > section.section-cards{
+        padding: 0px;
+        margin:50px 25px 50px 25px;
+    }
+    .section-boxes>.biggerbox{
+        padding:25px 
+    }
+    .section-boxes{
+        display: flex;
+        flex-wrap: wrap;
+        margin:50px 25px 25px 25px;
+    }
+    .section-projects{
+        display: flex;
+        flex-wrap: wrap;
+        margin: 50px;
+    }
+    .section-projects>.btn{
+        margin-top: 25px;
+    }
+
+    .websitecards{
+        display: flex;
+        flex-wrap: wrap;
+       margin-right: 50px;
+    }
+    
+    .lastsection{
+        margin: 0px 0px 50px 0px;
+    }
+}
+
